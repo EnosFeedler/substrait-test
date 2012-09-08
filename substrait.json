@@ -1,0 +1,42 @@
+{
+
+  "name": "sub-test",
+  "description": "substrait test program",
+  "version": "0.0.1",
+
+  "target": {
+
+    "name": "jkingyens",
+    "password": "testing123"
+
+  },
+
+  "s_core": {
+
+    "scripts": [
+      "./server.coffee"
+    ],
+
+    "main": "./server.coffee",
+
+    "dependencies": {
+      "express": "3.0.0rc4"
+    }
+
+  },
+
+  "c_core": {
+
+    "scripts": [
+      "./client.coffee"
+    ],
+
+    "main": "./client.jade",
+
+    "dependencies": {
+
+    }
+
+  }
+
+}
