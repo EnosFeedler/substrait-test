@@ -1,15 +1,13 @@
 {
 
-  "name": "sub-test",
-  "description": "substrait test program",
-  "version": "0.0.1",
+  "name": "substrait-test",
 
-  "target": {
+  "google_site_tags": [
 
-    "name": "jkingyens",
-    "password": "testing123"
+    "9gPWkTV7fyW7-ulLUdGfo662FkaveZ_N8DbAWBMQpE4",
+    "p8jfaMU-vQgwAUTt1DjYrADKhj-wkfmBaXCqY7SUzWU"
 
-  },
+  ],
 
   "s_core": {
 
@@ -20,7 +18,7 @@
     "main": "./server.coffee",
 
     "dependencies": {
-      "express": "3.0.0rc4"
+      "express": "3.x"
     }
 
   },
