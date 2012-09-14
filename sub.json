@@ -1,0 +1,40 @@
+{
+
+  "name": "substrait-test",
+
+  "google_site_tags": [
+
+    "9gPWkTV7fyW7-ulLUdGfo662FkaveZ_N8DbAWBMQpE4",
+    "p8jfaMU-vQgwAUTt1DjYrADKhj-wkfmBaXCqY7SUzWU"
+
+  ],
+
+  "s_core": {
+
+    "scripts": [
+      "./server.coffee"
+    ],
+
+    "main": "./server.coffee",
+
+    "dependencies": {
+      "express": "3.x"
+    }
+
+  },
+
+  "c_core": {
+
+    "scripts": [
+      "./client.coffee"
+    ],
+
+    "main": "./client.jade",
+
+    "dependencies": {
+
+    }
+
+  }
+
+}
