@@ -15,6 +15,10 @@ app.get '/', (req, res, next) ->
     if err then next new Error err else
       res.send c_core
 
+# also server hello, world on another endpoint
+app.get '/ping', (req, res) ->
+  res.send 'pong!'
+
 # serve the app via http
 server = http.createServer app
 
